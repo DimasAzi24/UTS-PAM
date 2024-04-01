@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#ECF0F3">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="70dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="70dp"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="70dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="70dp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/baseline_fitbit_24"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/logo"/>
+</RelativeLayout>
